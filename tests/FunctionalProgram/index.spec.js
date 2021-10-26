@@ -9,3 +9,4 @@ test('compose & pipe',() => {
     expect(compose(left,right)('')).toEqual('rightleft');
     expect(pipeEs6(left,right)('')).toEqual('leftright');
 })
+// TODO: 补充其余函数式编程的单测
